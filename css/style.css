@@ -1,0 +1,60 @@
+.navbar-inverse {
+    background-color: black;
+    border-color: black;
+}
+
+.header__menu_item{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    font-size: 14px;
+}
+
+.navbar-inverse .navbar-nav>li>u {
+    color: #ffffff;
+}
+.header{
+    height:70px ;
+    padding-top: 8px;
+    background-color: black;
+}
+
+.navbar-brand{
+    padding: 13px 15px;
+}
+
+.main_menu{
+    background-image: url('../img/image.png');
+    background-repeat: no-repeat;
+}
+
+.main__text{
+    font-size: 2rem;
+    color: #9c9c9d;
+    margin: 0;
+}
+
+.name__item{
+    font-size: 3rem;
+    color:white;
+    margin: 0;
+}
+
+.button__main{
+    background: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    padding: 9px 36px;
+}
+
+.info{
+    margin-top: 109px;
+}
+.logo__img{
+    margin-bottom: 33px;
+}
+
+.divider{
+    margin:40px 0 40px -4px;
+
+}
