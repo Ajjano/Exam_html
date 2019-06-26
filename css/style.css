@@ -1,3 +1,23 @@
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 13px;
+}
+
+.all_text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #a6a7a9;
+    margin-bottom: 25px;
+
+}
+
 .navbar-inverse {
     background-color: black;
     border-color: black;
@@ -31,7 +51,7 @@
 .main__text{
     font-size: 2rem;
     color: #9c9c9d;
-    margin: 0;
+    margin: 0 0 47px 0;
 }
 
 .name__item{
@@ -44,7 +64,7 @@
     background: none;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 15px;
     padding: 9px 36px;
 }
 
@@ -62,6 +82,7 @@
 
 .panel-body{
 margin: 0 39px;
+    padding: 0;
 }
 
 .input_field{
@@ -86,12 +107,12 @@ margin: 0 39px;
 .panel-primary>.panel-heading {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: 700;
     color: black;
     background: #f5f5f5;
     border: none;
-    padding: 20px;
+    padding: 15px;
 }
 
 .panel-primary{
@@ -102,13 +123,153 @@ margin: 0 39px;
     background-color: #ff9b51;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.9375rem;
+    font-size: 15px;
     text-align: center;
     padding: 10%;
     font-weight: 500;
-    padding: 20px;
+    padding: 15px;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #bdbdbd;
+}
+
+.row_main{
+    margin-bottom: 140px;
+}
+
+
+/*******info-bar********/
+
+.info-bar{
+    background:#ffffff;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.social__icon{
+    font-size: 44px;
+    color: #cccccc;
+    margin: 0 30px;
+}
+
+.social_bar{
+    margin-top: 28px;
+}
+
+/**************tabs-menu**********/
+.tabs-menu{
+    background-color: #f5f5f5;
+}
+
+.nav-pills__item{
+    width: 110px;
+    height: 110px;
+    background-color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 38% 20%;
+    color: #ffffff;
+    border-radius: 5%;
+}
+
+.nav-pills>li.active{
+    background: #ff8b38;
+}
+
+.nav-pills>li>a{
+    color: #ffffff;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    background-color: transparent;
+}
+
+.tabs_stack{
+    margin-top: 145px;
+    margin-bottom: 115px;
+}
+
+
+
+.tabs_menu__button{
+    background-color: #ff8b38;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    width: 118px;
+    height: 43px;
+    border: none;
+    border-radius: 5%;
+    margin-top: 51px;
+
+}
+
+.image_right{
+    margin-right: 145px;
+}
+
+/*************sub_list_sect************/
+.sub-list_section{
+    background: #ffffff;
+}
+
+.sub_list{
+    margin-top: 120px;
+    margin-bottom: 137px;
+}
+
+.sub_list__image{
+    margin-top: 5px;
+}
+
+.sub_list_divider{
+    width:64px;
+    height: 1px;
+    background-color: #ff8b38;
+    margin: 29px 0 29px 0;
+}
+
+.sub_list__text{
+   margin-bottom: 45px;
+}
+
+.circle{
+    border-radius: 50%;
+    border: 2px solid #ff8b38;
+    background-color: white;
+    width: 38px;
+    height: 38px;
+}
+
+.fa-cloud-upload,.fa-cloud-download{
+    font-size: 16px ;
+    color: #ff8b38;
+    margin: 27%;
+}
+
+.list_item{
+    padding: 0;
+    margin-bottom: 13px;
+}
+
+.right_sub__text{
+    padding-left: 106px;
+}
+
+/*********pict_section*************/
+.picture_section{
+    background-color:#f5f5f5;
+}
+
+.picture_section__content{
+    margin-top: 78px;
+    margin-bottom: 100px;
+}
+
+.picture_section__text{
+    margin-top: 15px;
+}
+
+.picture_section__pict{
+    padding-left: 63px;
 }
