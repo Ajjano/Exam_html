@@ -25,6 +25,7 @@
 .main_menu{
     background-image: url('../img/image.png');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main__text{
@@ -57,4 +58,57 @@
 .divider{
     margin:40px 0 40px -4px;
 
+}
+
+.panel-body{
+margin: 0 39px;
+}
+
+.input_field{
+    border: none;
+    border-bottom: lightgray solid 1px;
+    width: 100%;
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-left: 13px;
+}
+
+.input_field:last-child{
+    margin-bottom: 45px;
+}
+
+.panel{
+    box-sizing: content-box;
+    margin-top: 140px;
+}
+
+.panel-primary>.panel-heading {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: black;
+    background: #f5f5f5;
+    border: none;
+    padding: 20px;
+}
+
+.panel-primary{
+    border: none;
+}
+
+.panel-footer{
+    background-color: #ff9b51;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9375rem;
+    text-align: center;
+    padding: 10%;
+    font-weight: 500;
+    padding: 20px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #bdbdbd;
 }
