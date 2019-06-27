@@ -81,8 +81,8 @@
                    <i class="fa fa-google-plus social__icon"></i>
                    <i class="fa fa-pinterest social__icon"></i>
                    <i class="fa fa-instagram social__icon"></i>
-                   <i class="glyphicon glyphicon-tags social__icon"></i>
-                   <i class="glyphicon glyphicon-question-sign social__icon"></i>
+                   <i class="fa fa-stumbleupon social__icon"></i>
+                   <i class="fa fa-rss social__icon"></i>
 
                </div>
            </div>
@@ -92,16 +92,37 @@
         <div class="container">
             <div class="row tabs_stack">
                 <div class="col-md-8">
-                    <div class="col-md-2">
-                        <ul class="nav nav-pills nav-stacked">
-                            <li role="presentation" class="nav-pills__item active"><a href="#">TAB 1</a> </li>
-                            <li role="presentation" class="nav-pills__item"><a href="#">TAB 2</a> </li>
-                            <li role="presentation" class="nav-pills__item"><a href="#">TAB 3</a> </li>
+                    <div class="col-md-2 col-xs-2">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="nav-pills__item active"><a class="tabs_items" href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">TAB 1</a> </li>
+                            <li role="presentation" class="nav-pills__item"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">TAB 2</a> </li>
+                            <li role="presentation" class="nav-pills__item"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">TAB 3</a> </li>
                         </ul>
                     </div>
-                    <div class="col-md-9 col-lg-offset-1">
-                        <div class="tabs__item" id="tab1">
-                            <h3>Tabs with soft transitioning effect.</h3>
+                    <div class="tab-content col-md-9 col-xs-9 col-xs-offset-1">
+                        <div role="tabpanel" class="tabs__item tab-pane fade in active" id="tab1">
+                            <h3> Tabs ONE with soft transitioning effect.</h3>
+                            <p class="tabs__text all_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, autem beatae cupiditate dicta dolor ducimus earum eligendi eos fugit incidunt nisi officiis pariatur quasi quo saepe sed soluta suscipit temporibus!
+                            </p>
+                            <br>
+                            <p class="tabs__text all_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolorem eligendi neque possimus ullam veritatis.
+                            </p>
+                            <button type="button" class="tabs_menu__button">Download</button>
+                        </div>
+
+                        <div role="tabpanel" class="tabs__item tab-pane fade" id="tab2">
+                            <h3>Tabs TWO with soft transitioning effect.</h3>
+                            <p class="tabs__text all_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, autem beatae cupiditate dicta dolor ducimus earum eligendi eos fugit incidunt nisi officiis pariatur quasi quo saepe sed soluta suscipit temporibus!
+                            </p>
+                            <br>
+                            <p class="tabs__text all_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolorem eligendi neque possimus ullam veritatis.
+                            </p>
+                            <button type="button" class="tabs_menu__button">Download</button>
+                        </div>
+
+
+                        <div role="tabpanel" class="tabs__item tab-pane fade" id="tab3">
+                            <h3>Tabs THREE with soft transitioning effect.</h3>
                             <p class="tabs__text all_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, autem beatae cupiditate dicta dolor ducimus earum eligendi eos fugit incidunt nisi officiis pariatur quasi quo saepe sed soluta suscipit temporibus!
                             </p>
                             <br>
@@ -112,7 +133,8 @@
 
                     </div>
                 </div>
-                <div class="col-md-4">
+
+                <div class="col-md-4 col-xs-12">
                     <img src="img/image_right.png" alt="" class="image_right">
                 </div>
             </div>
@@ -167,8 +189,59 @@
     </div>
     <div class="container-fluid">
         <div class="container">
+            <div class="row awesome__section">
+                <div class="col-md-12 awesome__main">
+                    <h2>WHY THIS IS AWESOME</h2>
+                    <hr class="awesome__divider">
+                    <p class="all_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="col-md-12">
+                        <div class="circle_large">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                        </div>
+                        <h3>Thoughtful Design</h3>
+                        <p class="all_text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eos facilis labore non possimus provident reiciendis repellat sed sit voluptatum!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="col-md-12">
+                        <div class="circle_large">
+                            <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                        </div>
+                        <h3>Well Crafted</h3>
+                        <p class="all_text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eos facilis labore non possimus provident reiciendis repellat sed sit voluptatum!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="col-md-12">
+                        <div class="circle_large">
+                            <i class="fa fa-bolt" aria-hidden="true"></i>
+                        </div>
+                        <h3>Easy to Customize</h3>
+                        <p class="all_text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eos facilis labore non possimus provident reiciendis repellat sed sit voluptatum!
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <h3></h3>
+                <div class="col-md-12 awesome__main">
+                    <h2>WHY THIS IS AWESOME</h2>
+                    <hr class="awesome__divider">
+                    <p class="all_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
         </div>
     </div>
