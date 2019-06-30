@@ -1,0 +1,47 @@
+@media screen and (max-width: 768px ) {
+    img{
+        width: 100%;
+    }
+
+    .right_sub__text{
+        padding: 0;
+    }
+
+    .enterprise_info{
+        margin: 0;
+    }
+
+    .feedback_author__title, .feedback_author__descript{
+        text-align: center;
+    }
+
+    .image_right{
+        margin-top: 10px;
+    }
+
+    .tabs__item{
+        margin-left: 28px;
+    }
+
+    .nav-pills__item{
+        padding: 128% 20%;
+    }
+
+    .social__icon {
+        font-size: 27px;
+        margin: 0 15px;
+    }
+
+    .social_bar{
+        padding: 0;
+    }
+
+    .circle{
+        margin: 0 auto;
+    }
+
+    .sub_list__title{
+        text-align: center;
+        margin-top: 5px ;
+    }
+}

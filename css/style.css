@@ -82,7 +82,10 @@ h6{
 }
 
 .divider{
-    margin:40px 0 40px -4px;
+    width:64px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 29px 0 29px 0;
 
 }
 
@@ -291,7 +294,7 @@ margin: 0 39px;
 }
 
 .picture_section__pict{
-    padding-left: 63px;
+    padding-left: 0px;
 }
 
 /**************AWESOME__SECT***********/
@@ -493,7 +496,7 @@ margin: 0 39px;
 .stylist{
     background: url("../img/style_back.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    /*background-size: cover;*/
    /* position: relative;*/
     padding: 0;
 }
@@ -503,7 +506,7 @@ margin: 0 39px;
     margin-top: 72px;
     text-align: center;
     z-index: 1;
-    margin-bottom: 61px;
+    margin-bottom: 31px;
 }
 
 .stylish__title{
