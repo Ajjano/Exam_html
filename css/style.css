@@ -1,6 +1,7 @@
 h2{
     font-family:'Raleway', sans-serif;
     font-size: 36px;
+    margin: 0;
 }
 
 h3{
@@ -199,9 +200,6 @@ margin: 0 39px;
     border:none;
 }
 
-
-
-
 .tabs_menu__button{
     background-color: #ff8b38;
     color: white;
@@ -328,4 +326,260 @@ margin: 0 39px;
     width: 68px;
     height: 68px;
     margin: 0 auto;
+}
+
+/**************pricing**********/
+.pricing{
+    background-color: #f5f5f5;
+}
+.basic_info{
+    margin-top: 36px;
+}
+.pricing__section{
+    text-align: center;
+    margin-top: 107px;
+    margin-bottom: 94px;
+}
+
+.pricing_info{
+    margin-bottom: 82px;
+}
+
+.title__info{
+    height: 58px;
+    background: #333333;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+.pricing_item{
+    margin: 0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+
+.price__info{
+    background: #333333;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+
+.price__notes{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0;
+    padding-bottom: 17px;
+}
+
+.dollar{
+    font-size: 35px;
+    margin: 0;
+}
+
+.price{
+    font-size: 95px;
+}
+
+.basic__footer{
+    background-color: #ff8b38;
+    height: 5px;
+}
+
+.professional__footer{
+    height: 41px;
+    background-color: #ff8b38;
+}
+
+.enterprise_info{
+    margin-top: 36px;
+}
+
+.tariff__info{
+    height: 42px;
+    background-color: white;
+    position: relative;
+    margin-bottom: 1px;
+}
+
+.tariff_info__text{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-variant: all-petite-caps;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+
+/*********customers__section************/
+
+.customers{
+    background-color:#ffffff ;
+}
+
+.customers__section{
+    margin-top: 109px;
+    text-align: center;
+    margin-bottom: 102px;
+}
+
+.customers_info{
+    margin-bottom: 52px;
+}
+
+.feedback__block{
+    background-image: url("../img/feedback.png");
+    padding: 22px 10px 60px 10px;
+    margin: 0 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.feedback__text{
+    font-style: italic;
+    text-align: left;
+    margin: 0;
+}
+
+.avatar{
+    height: 70px;
+    width: auto;
+    padding: 0;
+}
+
+.feedback__descript{
+    margin: 0 30px;
+    padding: 8px;
+}
+
+.feedback_author__title{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.feedback_author__descript{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.author{
+    margin-top: 11px;
+    padding-left: 18px;
+}
+
+/***************stylist**********/
+
+.stylist{
+    background: url("../img/style_back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* position: relative;*/
+    padding: 0;
+}
+
+
+.stylist__section{
+    margin-top: 72px;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 61px;
+}
+
+.stylish__title{
+    color: #ffffff;
+}
+
+.cover{
+    background: rgba(0,0,0,0.5);
+}
+
+.stylish__divider{
+    width:63px ;
+    height: 2px;
+    background:white ;
+    margin-top: 29px;
+    margin-bottom: 32px;
+}
+
+.text_stylish{
+    font-size: 14px;
+    color: white;
+    margin-bottom: 32px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*************contact***********/
+
+.contact{
+    background-color: white;
+}
+
+.contact__section{
+    margin-top: 107px;
+    margin-bottom: 81px;
+    text-align: center;
+}
+
+.field_contact{
+    margin-top:76px;
+}
+
+.input_field__message{
+    height: 150px;
+    vertical-align: top;
+}
+
+.send_message__btn{
+    width: 145px;
+    height: 43px;
+    border-radius: 5%;
+    color: #ffffff;
+    background-color:#ff9b51;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    border: none;
+    box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.4);
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+}
+
+.footer__section{
+    margin-top: 19px;
+    margin-bottom: 13px;
+}
+.social__icon_footer{
+    font-size: 24px;
+    color: #cccccc;
+    margin: 0 15px;
+}
+
+.footer__text{
+    color: #cccccc;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin-top: 13px;
 }
