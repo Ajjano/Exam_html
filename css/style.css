@@ -499,6 +499,8 @@ margin: 0 39px;
     /*background-size: cover;*/
    /* position: relative;*/
     padding: 0;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 

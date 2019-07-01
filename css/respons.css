@@ -44,4 +44,31 @@
         text-align: center;
         margin-top: 5px ;
     }
+
+    .nav-pills__item{
+        padding: 0;
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .nav-pills__item.active{
+        padding: 0;
+        background-color: #333333;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        text-align: center;
+        color: #ffffff;
+        border-radius: 5%;
+        width: 80px;
+        height: 30px;
+    }
+
+    .nav>li{
+        display: inline;
+    }
+
+    .tabs_items{
+        padding: 0;
+    }
 }
