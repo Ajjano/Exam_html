@@ -163,6 +163,7 @@ margin: 0 39px;
 
 .social_bar{
     margin-top: 28px;
+    text-align: center;
 }
 
 /**************tabs-menu**********/
@@ -496,7 +497,7 @@ margin: 0 39px;
 .stylist{
     background: url("../img/style_back.jpg");
     background-repeat: no-repeat;
-    /*background-size: cover;*/
+    background-size: cover;
    /* position: relative;*/
     padding: 0;
     background-position: center;
@@ -517,6 +518,9 @@ margin: 0 39px;
 
 .cover{
     background: rgba(0,0,0,0.5);
+    background-attachment: fixed;
+    background-position: center;
+    height: 335px;
 }
 
 .stylish__divider{
